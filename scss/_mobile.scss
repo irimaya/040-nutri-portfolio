@@ -1,0 +1,86 @@
+@media only screen and (max-width: 768px) {
+  // Body
+  #mainbody {
+    flex-direction: column;
+  }
+
+  // Header
+  #home-header {
+    flex-basis: 100%;
+  }
+
+  // Nav
+  #home-nav {
+    height: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    ul {
+      padding: 20px;
+    } //End ul
+  } //End #home-nav
+
+  #mainheader {
+    padding: 20px;
+    ul {
+      li {
+        padding: 10px;
+      } //End li
+    } //End ul
+  } //End #mainheader
+
+  // Home Body
+  #home-body {
+    text-align: center;
+    .showcase {
+      &-wrap {
+        flex-direction: column;
+        padding: 20px;
+        height: 100%;
+        &-content {
+          flex-basis: 100%;
+          padding: 20px;
+          p {
+            padding: 20px;
+          }
+        }
+        &-img {
+          flex-basis: 100%;
+          padding: 20px;
+        }
+      } //End &-wrap
+      .home-footer {
+        width: 100%;
+        padding: 20px;
+        height: 100%;
+        .social {
+          ul {
+            float: none;
+            li {
+              padding: 10px;
+            }
+          } //End ul
+        } //End .social
+      } //End .home-footer
+    } //End .showcase
+  } //End #home-body
+
+  // Blog
+  #blog {
+    flex-direction: column;
+    .main {
+      flex-basis: 100%;
+      margin: 10px;
+    } //End .main
+    .sidebar {
+      flex-basis: 100%;
+    } //.sidebar
+  } //#blog
+
+  // Contact
+  #contact {
+    form {
+      width: 100%;
+    } //End form
+  } //End #contact
+
+} //End @media
